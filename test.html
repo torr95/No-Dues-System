@@ -1,9 +1,0 @@
-<?php $query = "SELECT * FROM lib"; //You don't need a ; like you do in SQL
-$result = mysql_query($query);
-$ar = 0;
-while($row = mysql_fetch_array($result)){
-$ar=$ar+ $row['fine'];
-}
-echo $ar;
-
-?>
